@@ -10,7 +10,7 @@ const StyledSection = styled.section`
 	position: relative;
 	display: flex;
 	align-items: start;
-	padding-top: 150px;
+	padding-top: 90px;
 	justify-content: center;
 	height: 80vh;
 	background-size: cover;
@@ -33,6 +33,8 @@ const StyledSection = styled.section`
 `
 
 const Intro = styled(Box)`
+	
+
 	h1 {
 		color: ${props => props.theme.color};
 		margin-bottom: 30px;

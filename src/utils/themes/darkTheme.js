@@ -5,4 +5,5 @@ export default {
 	color: '#ffffff',
 	colorAccent: '#D0E5FF',
 	gridBg: '#1D2538',
+	footerBg: '#1A2234',
 }

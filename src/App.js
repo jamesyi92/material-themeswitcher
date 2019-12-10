@@ -6,6 +6,8 @@ import IntroSection from './sections/IntroSection';
 import ContentSection from './sections/ContentSection';
 import ShowSection from './sections/ShowSection';
 import GridSection from './sections/GridSection';
+import CtaSection from './sections/CtaSection';
+import Footer from './components/Footer';
 
 import { ThemeProvider } from 'styled-components';
 
@@ -34,6 +36,8 @@ const App = () => {
         <ContentSection />
         <ShowSection />
         <GridSection />
+        <CtaSection />
+        <Footer />
       </Fragment>
     </ThemeProvider>
   );
